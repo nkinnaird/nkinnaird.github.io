@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Nicholas Kinnaird"
-  avatar           : "Headshot.jpg"
+  avatar           : "files/Headshot.jpg"
   bio              : "Physicist and Data Scientist"
   location         : "Chicago, IL"
   employer         :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/nkinnaird"
+  github           : "nkinnaird"
   google_plus      :
   keybase          :
   instagram        :
