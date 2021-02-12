@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Talk here about myself...
+This website is a work in progress. The template comes from [here](https://academicpages.github.io/).
 
 
 
