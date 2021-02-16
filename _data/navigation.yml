@@ -13,7 +13,7 @@ main:
   #   url: /portfolio/
 
   - title: "Projects"
-    excerpt: "This is a test excerpt to see what happens" 
+    # excerpt: "This is a test excerpt to see what happens" # I don't think adding this worked
     url: /portfolio/
         
   - title: "Blog Posts"
