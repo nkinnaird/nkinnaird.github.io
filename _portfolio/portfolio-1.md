@@ -7,6 +7,8 @@ collection: portfolio
 Description about project here 
 Link dissertation again
 
+[dissertation](https://github.com/nkinnaird/Dissertation)
+
 
 
 One primary component of the Fermilab Muon Muon <i>g − 2</i> experiment is the extraction of a specific so-called 'precession' frequency from large amounts (PBs) of data to high precision. As one of the lead analyzers for the first data-taking period of the experiment, I developed code which fit the data with physical and mathematical models in a specific way which reduced systematic biases. As part of the project I conducted many statistical and systematic evaluations on the data and the results of the fits. I also conducted many smaller toy Monte Carlo simulations in order to help develop my understanding of the real, sometimes messy, data in a clean environment.
