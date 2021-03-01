@@ -1,6 +1,6 @@
 ---
 title: "Geane Tracking"
-excerpt: "The codebase (primarily C++) for a track fitting algorithm utilizing <img src="https://render.githubusercontent.com/render/math?math=\chi^{2}"> minimization and error propagation.<br/><img src='https://github.com/nkinnaird/Dissertation/blob/master/KinnairdThesis/Body/Figures/TrackingFigures/Tracks/SampleTrack.png'>"
+excerpt: "The codebase (primarily C++) for a track fitting algorithm utilizing <img src="https://render.githubusercontent.com/render/math?math=\chi^{2}"> minimization and error propagation.<br/><img src='/images/gm2_sampletrack.png'>"
 collection: portfolio
 ---
 
@@ -13,7 +13,16 @@ I developed a track fitting algorithm and implemented it into a larger track rec
 
 The main infrastructure and flow of the track fitting code is shown below, along with a sample fitted track that the algorithm was successfully applied to.
 
+
 <p float="left">
+  <img src="/images/gm2_trackingworkflow.png" height="225" />
+  <img src="/images/gm2_sampletrack.png" height="225" />
+</p>
+
+
+
+<!-- <p float="left">
   <img src="https://github.com/nkinnaird/Geane-Documentation/blob/master/Images/TrackingFlow/NewGeaneFittingFlow.png" height="225" />
   <img src="https://github.com/nkinnaird/Dissertation/blob/master/KinnairdThesis/Body/Figures/TrackingFigures/Tracks/SampleTrack.png" height="225" />
 </p>
+ -->

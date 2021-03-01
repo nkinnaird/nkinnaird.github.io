@@ -1,6 +1,6 @@
 ---
 title: "Precession Frequency Analysis"
-excerpt: "This is the codebase (C++, C, bash) for a high precision frequency analysis project, and associated statistical and systematic evaluations, for the Fermilab Muon <i>g − 2</i> physics experiment.<br/><img src='https://github.com/nkinnaird/PrecessionFrequencyAnalysis/blob/master/PlotsForReadme/FitResidualFFT.png'>"
+excerpt: "This is the codebase (C++, C, bash) for a high precision frequency analysis project, and associated statistical and systematic evaluations, for the Fermilab Muon <i>g − 2</i> physics experiment.<br/><img src='/images/gm2_precessionresults_1.png'>"
 collection: portfolio
 ---
 
@@ -13,11 +13,13 @@ One primary component of the Fermilab Muon Muon <i>g − 2</i> experiment is the
 
 Below is an image containing the final (blinded) fits to the four datasets gathered in the first data-taking period of the experiment, where the precisions on the extracted frequncies are at the parts-per-million (ppm) level or smaller. Also included is a plot of the fit residuals and associated FFT for one of the datasets.
 
-<!--
-<div style="text-align:left"><img src="https://github.com/nkinnaird/PrecessionFrequencyAnalysis/blob/master/PlotsForReadme/DatasetRatioFits.png" height="400" /></div> 
--->
+
+<img src="/images/gm2_precessionresults_1.png" height="400"/>
+
+<img src="/images/gm2_precessionresults_2.png" height="400"/>
 
 
-<img src="https://github.com/nkinnaird/PrecessionFrequencyAnalysis/blob/master/PlotsForReadme/DatasetRatioFits.png" height="250" />
 
-<img src="https://github.com/nkinnaird/PrecessionFrequencyAnalysis/blob/master/PlotsForReadme/FitResidualFFT.png" height="250" />
+<!-- <img src="https://github.com/nkinnaird/PrecessionFrequencyAnalysis/blob/master/PlotsForReadme/DatasetRatioFits.png" height="250" />
+
+<img src="https://github.com/nkinnaird/PrecessionFrequencyAnalysis/blob/master/PlotsForReadme/FitResidualFFT.png" height="250" /> -->
