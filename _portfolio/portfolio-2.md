@@ -4,7 +4,7 @@ excerpt: "The codebase (primarily C++) for a track-fitting algorithm utilizing c
 collection: portfolio
 ---
 
-*This project was done while as a graduate student for the Fermilab Muon <i>g − 2</i> physics experiment. See extensive details in my [dissertation](https://github.com/nkinnaird/Dissertation).*
+*This project was done while as a graduate student for the Fermilab Muon <i>g − 2</i> physics experiment. See extensive details in my [dissertation](https://drive.google.com/file/d/1svdQTMf3DBS_IxlBcKcXCyd4XHIo__C7/view?usp=sharing).*
 
 
 The Fermilab Muon Muon <i>g − 2</i> experiment, for various vital diagnostic and data analysis purposes, utilizes "tracking detectors" in order to measure where muons decay within the experiment. Muons decay to positrons, some of which then pass through these tracking detectors. The detectors themselves essentially consist of electrical devices which "light up" whenever a positron passes through them. One of the modules of the system can be seen below:

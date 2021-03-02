@@ -4,7 +4,7 @@ excerpt: "The codebase (C++, C, bash) for a high precision frequency analysis pr
 collection: portfolio
 ---
 
-*This project was done while as a graduate student and then postdoctoral research associate for the Fermilab Muon <i>g − 2</i> physics experiment. See extensive details in my [dissertation](https://github.com/nkinnaird/Dissertation).*
+*This project was done while as a graduate student and then postdoctoral research associate for the Fermilab Muon <i>g − 2</i> physics experiment. See extensive details in my [dissertation](https://drive.google.com/file/d/1svdQTMf3DBS_IxlBcKcXCyd4XHIo__C7/view?usp=sharing).*
 
 
 One primary component of the Fermilab Muon Muon <i>g − 2</i> experiment is the extraction of a specific, so-called 'precession' frequency from large amounts of data, PBs, to high precision (sub-parts-per-million). I was one of the lead analyzers for the first data-taking period of the experiment, and developed code for the analysis stage of this part of the experiment. To explain it simply (at the risk of underselling how much work was involved), I more or less fit 1D histograms with non-linear functions, and then conducted many statistical and systematic tests on those fits. I used a specific method called the "Ratio Method," which helped reduce systematic biases in the final fit results.
