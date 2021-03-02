@@ -1,25 +1,27 @@
 ---
 title: "Geane Tracking"
-excerpt: "The codebase (primarily C++) for a track fitting algorithm utilizing chi-squared minimization and error propagation.<br/><img src='/images/gm2_sampletrack.png'>"
+excerpt: "The codebase (primarily C++) for a track-fitting algorithm utilizing chi-squared minimization and error propagation, for the Fermilab Muon <i>g − 2</i> physics experiment.<br/><img src='/images/gm2_sampletrack.png'>"
 collection: portfolio
 ---
 
-
-[dissertation](https://github.com/nkinnaird/Dissertation)
-
-
-I developed a track fitting algorithm and implemented it into a larger track reconstruction framework as one of the first members of the 'Tracking Team' on the Fermilab Muon Muon <i>g − 2</i> experiment. This track fitting algorithm essentially combines separate hits across a detector into a single fitted track. The track fitting algorithm then fits large amounts (TBs) of incoming data for many tracks with high fidelity to provide vital telemetry for the experiment, and is still in use today. The algorithm was developed and tested with Monte Carlo simulations, and statistically verified before its implementation into the larger framework and put into production. A separate repository containing the [`Documentation`](https://github.com/nkinnaird/Geane-Documentation) can be found which details the algorithm and it's implementation.
+*This project was done while as a graduate student for the Fermilab Muon <i>g − 2</i> physics experiment. See extensive details in my [dissertation](https://github.com/nkinnaird/Dissertation).*
 
 
-The main infrastructure and flow of the track fitting code is shown below, along with a sample fitted track that the algorithm was successfully applied to.
+The Fermilab Muon Muon <i>g − 2</i> experiment, for various vital diagnostic and data analysis purposes, utilizes "tracking detectors" in order to measure where muons decay within the experiment. Muons decay to positrons, some of which then pass through these tracking detectors. The detectors themselves essentially consist of electrical devices which "light up" whenever a positron passes through them. One of the modules of the system can be seen below:
 
 
-<!-- <p float="left"> -->
+<img src="/images/Tracker.png" height="400"/>
+
+
+As one of the first members of the 'Tracking Team,' I developed a track fitting algorithm which fits these discrete points to single, unique, tracks for many, many incoming positrons. This tracking algorithm was implemented into a larger track reconstruction framework, such that it could interface with upstream and downstream stages of the code base. The algorithm has been used to process many TBs of data, and is still in use today. A separate repository containing the [documentation](https://github.com/nkinnaird/Geane-Documentation) can be found which details the algorithm, the verification of it using Monte Carlo simulation, and it's implementation. The main infrastructure and flow of the track fitting code is shown below, along with a sample fitted track that the algorithm was successfully applied to.
+
+
 <img src="/images/gm2_trackingworkflow.png" height="400"/>
-
 <img src="/images/gm2_sampletrack.png" height="400"/>
-<!-- </p> -->
 
+
+
+<!-- I developed a track fitting algorithm and implemented it into a larger track reconstruction framework as one of the first members of the 'Tracking Team' on the Fermilab Muon Muon <i>g − 2</i> experiment. This track fitting algorithm essentially combines separate hits across a detector into a single fitted track. The track fitting algorithm then fits large amounts (TBs) of incoming data for many tracks with high fidelity to provide vital telemetry for the experiment, and is still in use today. The algorithm was developed and tested with Monte Carlo simulations, and statistically verified before its implementation into the larger framework and put into production. A separate repository containing the [`Documentation`](https://github.com/nkinnaird/Geane-Documentation) can be found which details the algorithm and it's implementation. The main infrastructure and flow of the track fitting code is shown below, along with a sample fitted track that the algorithm was successfully applied to. -->
 
 
 <!-- <p float="left">
