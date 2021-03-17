@@ -18,6 +18,9 @@ main:
         
   - title: "Blog Posts"
     url: /blog-posts/
+
+  - title: "Resume"
+    url: /resume/
     
   # - title: "CV"
   #   url: /cv/
