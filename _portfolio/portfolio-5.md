@@ -4,7 +4,7 @@ excerpt: "Performed topic modeling and natural language processing on a fictiona
 collection: portfolio
 ---
 
-For my third Metis project, I did topic modeling and natural language processing on a fictional book series by Brandon Sanderson, called "The Stormlight Archive." I first processed the text in chapter and page-level increments using NLTK and standard text pre-processing techniques. I then used various topic modeling techniques, ultimately choosing NMF topic modeling since it performed the best without much tuning. The topic modeling converged naturally on the main characters themselves, and the distribution of pages per character-topic can be seen in the figure below.
+For my fourth Metis project, I did topic modeling and natural language processing on a fictional book series by Brandon Sanderson, called "The Stormlight Archive." I first processed the text in chapter and page-level increments using NLTK and standard text pre-processing techniques. I then used various topic modeling techniques, ultimately choosing NMF topic modeling since it performed the best without much tuning. The topic modeling converged naturally on the main characters themselves, and the distribution of pages per character-topic can be seen in the figure below.
 
 <img src="/images/NMF_AllBooks_ByPage.png" height="400"/>
 
