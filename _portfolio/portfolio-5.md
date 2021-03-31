@@ -8,6 +8,6 @@ For my third Metis project, I did topic modeling and natural language processing
 
 <img src="/images/NMF_AllBooks_ByPage.png" height="400"/>
 
-The second figure shows a t-SNE plot of the character-topics, using the NMF topic vectors as input, and shows the level of interaction between characters. This is especially apparent in the middle region, where the NMF topic modeling had a harder time choosing one specific character-topic. After the initial topic modeling, I performed topic modeling of the individual characters in order to determine character-specific thematic topics. Please see the [project GitHub page](https://github.com/nkinnaird/StormlightArchiveNLP) for more extensive details.
+The second figure shows a dimensionality reduction t-SNE plot of the character-topics, using the NMF topic vectors as input, and shows the level of interaction between characters. This is especially apparent in the middle region, where the NMF topic modeling had a harder time choosing one specific character-topic. After the initial topic modeling, I performed topic modeling of the individual characters in order to determine character-specific thematic topics. Please see the [project GitHub page](https://github.com/nkinnaird/StormlightArchiveNLP) for more extensive details.
 
 <img src="/images/NMF_tSNE_ByPage.png" height="400"/>
