@@ -8,4 +8,4 @@ For my second Metis project, I predicted US county Covid-19 deaths (scaled by po
 
 <img src="/images/CovidMapLarger.png" height="400"/>
 
-<img src="/images/FinalComparePlot.png.png" height="400"/>
+<img src="/images/FinalComparePlot.png" height="400"/>
