@@ -17,8 +17,7 @@ When a variant is classified in a different category by separate labs, that clas
 1. Biologists and genetics labs can better identify those variants which require further study and lab testing
 2. Physicians can better plan patient treatment and respond to lab results
 
-
-The figure below shows a comparison of ROC curves between different classification models. I ultimately selected the RandomForest model since it performed the best and was still relatively interpretable. Please see the [project GitHub page](https://github.com/nkinnaird/GeneticVariantClassification) for more extensive details.
+I used a Kaggle dataset for this project, and built and tested various clssification models. The figure below shows a comparison of the model ROC curves. I ultimately selected the RandomForest model since it performed the best and was still relatively interpretable. Please see the [project GitHub page](https://github.com/nkinnaird/GeneticVariantClassification) for more extensive details.
 
 <img src="/images/ROC_Comparison.png" height="400"/>
 
